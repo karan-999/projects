@@ -1,0 +1,306 @@
+<!-- This is a Survey form  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Survey</title>
+</head>
+
+<body>
+
+    <form action="#">
+        <center>
+            <h1>Customer Information:</h1>
+        </center>
+        <hr>
+        <table>
+            <tr>
+                <td>
+                    <label for="cName">
+                        <h2><b>Customer Name</b></h2>
+                    </label>
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+
+                <td><input type="text" id="fname" placeholder="First Name"></td>
+                <td><input type="text" id="lname" placeholder="Last Name"></td>
+
+            </tr>
+            <tr>
+
+                <td><label for="fname">First Name</td>
+                <td><label for="lname">Last Name</td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <h2><b>Address</b></h2>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="street" id="street" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="street">Street Address</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="street2" id="street2">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="street2">Street Address Line 2</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" name="city" id="city" required>
+                </td>
+                <td>
+                    <input type="text" name="state" id="state" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td>
+                    <label for="state">State/Province</label>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" name="postalcode" id="postalcode" required>
+
+                </td>
+                <td>
+                    <select name="country" id="country" required>
+                        <option value="in" selected>India</option>
+                        <option value="fr">France</option>
+                        <option value="rus">Russia</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="ge">Germany</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="postalcode">Postal/Zip Code</label>
+
+                </td>
+                <td>
+                    <label for="country">Country</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="contactno">
+                        <h2><b>Number</b></h2>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="tel" name="contactno" id="contactno" placeholder="(+000)000-0000" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">
+                        <h2><b>Email</b></h2>
+                    </label>
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" name="emailid" id="email" placeholder="abc@xyz.com" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="feed1">
+                        <h3><b>How long have you been using this product and why?</b></h3>
+                    </label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="feedback1" id="feed1" cols="30" rows="10" required></textarea>
+                </td>
+
+
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="feed2">
+                        <h3><b>Write your comments and suggestions about our products in comparison with
+                                other competitors:</b></h3>
+                    </label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="feedback2" id="feed2" cols="30" rows="10" required></textarea>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="feed3">
+                        <h3><b>Are you satisfied with our product performance? share your
+                                opinions:</b></h3>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="feedback3" id="feed3" cols="30" rows="10" required></textarea>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="feed4">
+                        <h3><b>Tell us something about your shopping experiences to buy our product:
+                            </b></h3>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="feedback4" id="feed4" cols="30" rows="10" required></textarea>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="feed5">
+                        <h3><b>Would you like to continue with our product? if No why: </b></h3>
+                    </label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="feedback5" id="feed5" cols="30" rows="10" required></textarea>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="feed6">
+                        <h3><b>What kind of changes would you like to see in our products so as to enhance
+                                your satisfaction level? </b></h3>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="feedback6" id="feed6" cols="30" rows="10" required></textarea>
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+        <p></p>
+        <center><b>Thank you for completing this survey!</b></center>
+        <hr>
+        <center>
+            <button type="submit" style="background-color:green; color:white">Submit</button>
+        </center>
+
+
+    </form>
+</body>
+
+</html>
